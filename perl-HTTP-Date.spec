@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Date
 Version  : 6.02
-Release  : 9
+Release  : 10
 URL      : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
 Summary  : date conversion routines
