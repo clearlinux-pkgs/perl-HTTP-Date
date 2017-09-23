@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Date
 Version  : 6.02
-Release  : 14
+Release  : 15
 URL      : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
 Summary  : date conversion routines
@@ -65,7 +65,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/site_perl/5.26.0/HTTP/Date.pm
+/usr/lib/perl5/site_perl/5.26.1/HTTP/Date.pm
 
 %files doc
 %defattr(-,root,root,-)
