@@ -4,10 +4,10 @@
 #
 Name     : perl-HTTP-Date
 Version  : 6.02
-Release  : 25
+Release  : 26
 URL      : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
-Summary  : date conversion routines
+Summary  : Date conversion routines
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -24,6 +24,7 @@ $time = str2time($string);    # convert ASCII date to machine time
 Summary: dev components for the perl-HTTP-Date package.
 Group: Development
 Provides: perl-HTTP-Date-devel = %{version}-%{release}
+Requires: perl-HTTP-Date = %{version}-%{release}
 
 %description dev
 dev components for the perl-HTTP-Date package.
