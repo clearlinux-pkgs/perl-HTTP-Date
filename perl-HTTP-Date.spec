@@ -7,7 +7,7 @@
 #
 Name     : perl-HTTP-Date
 Version  : 6.06
-Release  : 50
+Release  : 51
 URL      : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.06.tar.gz
 Summary  : 'HTTP::Date - date conversion routines'
